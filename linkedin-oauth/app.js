@@ -1,3 +1,4 @@
+require('dotenv').load()
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -9,7 +10,6 @@ var users = require('./routes/users');
 var LinkedInStrategy = require('passport-linkedin-oauth2').Strategy;
 var passport = require('passport');
 var app = express();
-require('dotenv').load()
 
 
 
