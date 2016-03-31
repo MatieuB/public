@@ -10,7 +10,7 @@ var users = require('./routes/users');
 var LinkedInStrategy = require('passport-linkedin-oauth2').Strategy;
 var passport = require('passport');
 var cookieSession = require('cookie-session');
-var logout = require('express-passport-logout');
+
 var app = express();
 
 
